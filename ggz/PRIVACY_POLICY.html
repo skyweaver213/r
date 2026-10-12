@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Veil Camera — 隐私权政策 / Privacy Policy</title>
+<meta name="description" content="Veil Camera 隐私权政策：本应用不收集、不传输、不共享任何个人数据。">
+<style>
+  :root {
+    --text: #202124;
+    --text-secondary: #5f6368;
+    --link: #1a73e8;
+    --border: #dadce0;
+    --bg: #ffffff;
+    --bg-soft: #f8f9fa;
+    --accent: #1a73e8;
+    --accent-soft: #e8f0fe;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    font-family: "Google Sans", "Product Sans", Roboto, -apple-system, "PingFang SC", "Helvetica Neue", "Microsoft YaHei", sans-serif;
+    color: var(--text);
+    background: var(--bg);
+    line-height: 1.7;
+    font-size: 16px;
+  }
+  .page {
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 40px 24px 72px;
+  }
+
+  /* ---------- Header ---------- */
+  .policy-header {
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 24px;
+    margin-bottom: 32px;
+  }
+  .app-badge {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--accent);
+    background: var(--accent-soft);
+    border-radius: 16px;
+    padding: 4px 14px;
+    margin-bottom: 16px;
+    letter-spacing: .3px;
+  }
+  h1 {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1.3;
+    letter-spacing: -.5px;
+  }
+  .meta {
+    margin-top: 12px;
+    font-size: 14px;
+    color: var(--text-secondary);
+  }
+
+  /* ---------- Language toggle ---------- */
+  .lang-switch {
+    display: flex;
+    gap: 0;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+    width: fit-content;
+    margin-bottom: 36px;
+  }
+  .lang-switch button {
+    appearance: none;
+    border: none;
+    background: var(--bg);
+    color: var(--text-secondary);
+    font: inherit;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px 20px;
+    cursor: pointer;
+    transition: background .15s ease, color .15s ease;
+  }
+  .lang-switch button.active {
+    background: var(--accent);
+    color: #fff;
+  }
+  .lang-switch button:not(.active):hover {
+    background: var(--bg-soft);
+  }
+
+  /* ---------- Sections ---------- */
+  section { margin-bottom: 40px; }
+  h2 {
+    font-size: 21px;
+    font-weight: 500;
+    margin-bottom: 14px;
+    letter-spacing: -.2px;
+  }
+  h3 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  p { margin-bottom: 14px; }
+  ul { margin: 0 0 14px 22px; }
+  li { margin-bottom: 8px; }
+  strong { font-weight: 600; }
+  a { color: var(--link); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  /* ---------- Callout ---------- */
+  .callout {
+    background: var(--bg-soft);
+    border-left: 4px solid var(--accent);
+    border-radius: 0 8px 8px 0;
+    padding: 16px 20px;
+    margin: 18px 0;
+  }
+  .callout p { margin: 0; }
+
+  /* ---------- Table ---------- */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 18px 0;
+    font-size: 15px;
+  }
+  th, td {
+    text-align: left;
+    padding: 12px 14px;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+  thead th {
+    font-weight: 600;
+    color: var(--text-secondary);
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    border-bottom: 2px solid var(--border);
+  }
+  tbody tr:last-child td { border-bottom: none; }
+  tbody tr:hover { background: var(--bg-soft); }
+
+  /* ---------- Contact ---------- */
+  .contact-card {
+    background: var(--bg-soft);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px 24px;
+  }
+
+  /* ---------- Footer ---------- */
+  footer {
+    border-top: 1px solid var(--border);
+    margin-top: 48px;
+    padding-top: 20px;
+    font-size: 13px;
+    color: var(--text-secondary);
+  }
+
+  /* ---------- Language visibility ----------  */
+  .lang, .lang-inline-zh, .lang-inline-en { display: none; }
+  html[lang="zh-CN"] .lang-zh { display: block; }
+  html[lang="en"] .lang-en { display: block; }
+  html[lang="zh-CN"] .lang-inline-zh { display: inline; }
+  html[lang="en"] .lang-inline-en { display: inline; }
+
+  /* ---------- Responsive ---------- */
+  @media (max-width: 600px) {
+    .page { padding: 24px 16px 56px; }
+    h1 { font-size: 26px; }
+    h2 { font-size: 19px; }
+    table { font-size: 14px; }
+    th, td { padding: 10px 10px; }
+  }
+
+  /* ---------- Print ---------- */
+  @media print {
+    .lang-switch { display: none; }
+    .page { padding: 0; max-width: none; }
+    a { color: var(--text); }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="policy-header">
+    <span class="app-badge">Veil Camera</span>
+    <h1>
+      <span class="lang-inline-zh">隐私权政策</span>
+      <span class="lang-inline-en">Privacy Policy</span>
+    </h1>
+    <p class="meta">
+      <span class="lang-inline-zh">生效日期：2026 年 10 月 12 日</span>
+      <span class="lang-inline-en">Effective Date: October 12, 2026</span>
+    </p>
+  </header>
+
+  <div class="lang-switch" role="group" aria-label="Language / 语言">
+    <button type="button" id="btn-en" class="active" onclick="setLang('en')">English</button>
+    <button type="button" id="btn-zh" onclick="setLang('zh-CN')">中文</button>
+  </div>
+
+  <!-- ================= 中文版 ================= -->
+  <div class="lang lang-zh">
+
+    <section>
+      <h2>引言</h2>
+      <p>Veil Camera（"本应用"）是一款以隐私为先的相机应用。本隐私权政策说明您使用本应用时，应用如何处理相关信息。</p>
+      <div class="callout">
+        <p><strong>简而言之：Veil Camera 不收集、不传输、不共享您的任何个人数据。应用录制的所有内容都保存在您的设备上，除非您主动导出。</strong></p>
+      </div>
+    </section>
+
+    <section>
+      <h2>我们收集的信息</h2>
+      <p><strong>本应用不收集任何个人信息。</strong>Veil Camera：</p>
+      <ul>
+        <li><strong>不</strong>要求注册账号</li>
+        <li><strong>不</strong>在任何服务器上收集、存储或处理您的照片和视频</li>
+        <li><strong>不</strong>通过互联网发送任何数据</li>
+        <li><strong>不</strong>包含广告、统计分析、用户追踪或崩溃上报组件</li>
+        <li><strong>不</strong>向任何第三方出售或共享数据</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>应用如何使用设备权限</h2>
+      <table>
+        <thead>
+          <tr><th>权限</th><th>用途</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>相机</strong></td><td>拍摄照片和视频，这是本应用的核心功能</td></tr>
+          <tr><td><strong>麦克风</strong></td><td>为您录制的视频采集声音</td></tr>
+          <tr><td><strong>照片 / 媒体 / 存储</strong></td><td>将您选择导出的照片和视频保存到设备相册</td></tr>
+        </tbody>
+      </table>
+      <p>所有权限仅用于提供应用功能。您可以拒绝任何权限，应用将仅无法使用对应功能。</p>
+    </section>
+
+    <section>
+      <h2>数据存储与安全</h2>
+      <ul>
+        <li>所有照片和视频<strong>仅存储在您设备上本应用的私有目录中</strong>。</li>
+        <li>媒体文件<strong>不会</strong>被上传、同步或备份到任何地方。</li>
+        <li>您可以将照片或视频导出到设备相册——这<strong>仅在您主动选择时</strong>发生，且导出过程完全在您的设备本地完成。</li>
+        <li>在应用中删除文件，或卸载应用，将永久删除您设备上的对应数据。</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>第三方服务</h2>
+      <p>本应用不使用任何第三方分析、广告或数据处理服务。任何数据都不会离开您的设备。</p>
+    </section>
+
+    <section>
+      <h2>儿童隐私</h2>
+      <p>本应用并非面向 13 岁以下儿童设计；由于应用不收集任何数据，任何用户（包括儿童）的数据均不会被收集或共享。</p>
+    </section>
+
+    <section>
+      <h2>政策变更</h2>
+      <p>我们可能会不时更新本隐私权政策。任何变更将发布在本页面，并更新生效日期。</p>
+    </section>
+
+    <section>
+      <h2>联系我们</h2>
+      <div class="contact-card">
+        <p>如对本隐私权政策有任何疑问，请通过邮箱联系我们：</p>
+        <p><a href="mailto:marmot_tool@126.com"><strong>marmot_tool@126.com</strong></a></p>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- ================= English ================= -->
+  <div class="lang lang-en">
+
+    <section>
+      <h2>Introduction</h2>
+      <p>Veil Camera ("we", "our", or "the App") is a privacy-first camera application. This Privacy Policy explains how the App handles information when you use it on your Android device.</p>
+      <div class="callout">
+        <p><strong>The short version: Veil Camera does not collect, transmit, or share any of your personal data. Everything the App records stays on your device unless you explicitly export it.</strong></p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Information We Collect</h2>
+      <p><strong>We do not collect any personal information.</strong> Veil Camera:</p>
+      <ul>
+        <li>Does <strong>not</strong> require an account or registration</li>
+        <li>Does <strong>not</strong> collect, store, or process your photos or videos on any server</li>
+        <li>Does <strong>not</strong> send any data over the internet</li>
+        <li>Does <strong>not</strong> include advertisements, analytics, tracking, or crash-reporting SDKs</li>
+        <li>Does <strong>not</strong> sell or share data with third parties</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>How the App Uses Device Permissions</h2>
+      <table>
+        <thead>
+          <tr><th>Permission</th><th>Purpose</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>Camera</strong></td><td>Capturing photos and videos, which is the core function of the App</td></tr>
+          <tr><td><strong>Microphone</strong></td><td>Recording audio in your videos (optional per recording)</td></tr>
+          <tr><td><strong>Photos / Media / Storage</strong></td><td>Saving photos and videos you choose to export to your device gallery</td></tr>
+        </tbody>
+      </table>
+      <p>All permissions are used only to provide the App's features. You may deny any permission, and the App will simply not perform the related function.</p>
+    </section>
+
+    <section>
+      <h2>Data Storage and Security</h2>
+      <ul>
+        <li>All photos and videos are stored <strong>only in the App's private storage on your device</strong>.</li>
+        <li>Media files are <strong>not</strong> uploaded, synced, or backed up anywhere.</li>
+        <li>You can export a photo or video to your device's gallery — this happens <strong>only when you explicitly choose to</strong>, and the export is performed locally on your device.</li>
+        <li>Deleting a file in the App, or uninstalling the App, permanently removes the corresponding data from your device.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Third-Party Services</h2>
+      <p>The App does not use any third-party analytics, advertising, or data-processing services. No data leaves your device.</p>
+    </section>
+
+    <section>
+      <h2>Children's Privacy</h2>
+      <p>The App is not directed at children under 13, and because the App collects no data at all, no data of any user — including children — is gathered or shared.</p>
+    </section>
+
+    <section>
+      <h2>Changes to This Policy</h2>
+      <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated effective date.</p>
+    </section>
+
+    <section>
+      <h2>Contact Us</h2>
+      <div class="contact-card">
+        <p>If you have any questions about this Privacy Policy, please contact us by email:</p>
+        <p><a href="mailto:marmot_tool@126.com"><strong>marmot_tool@126.com</strong></a></p>
+      </div>
+    </section>
+
+  </div>
+
+  <footer>
+    <p>© 2026 Veil Camera. <span class="lang-inline-zh">最后更新：2026 年 10 月 12 日</span><span class="lang-inline-en">Last updated: October 12, 2026</span></p>
+  </footer>
+
+</div>
+
+<script>
+  function setLang(lang) {
+    document.documentElement.lang = lang;
+    document.getElementById('btn-zh').classList.toggle('active', lang === 'zh-CN');
+    document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+  }
+</script>
+</body>
+</html>
